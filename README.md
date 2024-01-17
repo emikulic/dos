@@ -57,4 +57,9 @@ List functions by size:
 nm --print-size --radix=d --size-sort --demangle ex1.o
 ```
 
+## Smaller MOVs
+
+[ex2.cpp] shows two alternative ways to call the DOS interrupt, where manually
+specifying a 16-bit MOV produces a smaller binary.
+
 vim:set tw=80:
